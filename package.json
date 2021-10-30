@@ -1,0 +1,25 @@
+{
+  "name": "uis-template-mui",
+  "description": "> TODO: description",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf build/* && tsc"
+  },
+  "peerDependencies": {
+    "react": "17.x",
+    "react-dom": "17.x"
+  },
+  "dependencies": {
+    "@ui-studio/typescript": "^0.1.37"
+  },
+  "devDependencies": {
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.53",
+    "@types/react-dom": "^16.9.8",
+    "@ui-studio/builder": "^0.1.59",
+    "@ui-studio/types": "^0.1.38",
+    "openapi-types": "^9.3.0",
+    "typescript": "^4.0.3"
+  }
+}
