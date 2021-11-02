@@ -93,8 +93,8 @@ const Button: ComponentDefinition = {
       onClick();
     };
 
-    const StartIcon = Icons[`{${startIcon}${iconStyle === 'Filled' ? '' : iconStyle}`];
-    const EndIcon = Icons[`{${endIcon}${iconStyle === 'Filled' ? '' : iconStyle}`];
+    const StartIcon = Icons[`${startIcon}${iconStyle === 'Filled' ? '' : iconStyle}`];
+    const EndIcon = Icons[`${endIcon}${iconStyle === 'Filled' ? '' : iconStyle}`];
 
     return (
       <MuiButton
