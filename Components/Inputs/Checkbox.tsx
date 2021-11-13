@@ -14,9 +14,9 @@ type Props = {
 }
 
 const Checkbox: ComponentDefinition = {
-  key: 'mui-Checkbox',
+  key: 'mui-checkbox',
   name: 'Checkbox',
-  category: 'Controls',
+  category: 'Inputs',
   icon: 'CheckBox',
   hasChildren: false,
   hasLayout: false,

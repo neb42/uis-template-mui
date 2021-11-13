@@ -27,7 +27,7 @@ type Props = {
 const Button: ComponentDefinition = {
   key: 'mui-button',
   name: 'Button',
-  category: 'Controls',
+  category: 'Inputs',
   icon: 'TouchAppRounded',
   hasChildren: false,
   hasLayout: false,
